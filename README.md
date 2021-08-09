@@ -1,9 +1,11 @@
 # Lunar_Causal_Network
 Created for Stony Brook University's Simons Summer Research Program in 2021.  
 
-**Problem:** Reinforcement Learning models are ubiquitous, but many are black box models, meaning they are created directly from data by an algorithm without insight into their structure. With these models, humans, even those who design them, cannot understand how variables are being combined to make predictions. What if we want to know why a model took an action? Why a RL-powered military weapon decides to make a launch? Investors are less likely to invest in and users are less likely to deploy a model they can’t understand, trust, or control.  
+**Problem:**   
+Reinforcement Learning models are ubiquitous, but many are black box models, meaning they are created directly from data by an algorithm without insight into their structure. With these models, humans, even those who design them, cannot understand how variables are being combined to make predictions. What if we want to know why a model took an action? Why a RL-powered military weapon decides to make a launch? Investors are less likely to invest in and users are less likely to deploy a model they can’t understand, trust, or control.  
 
-**Objective:** To use algorithmic interference to reconstruct the path of decision making. The goal is to make causal network that visualizes the effect of actions on state and the effect of state on reward. The network would act as a cause and effect chart for the model decision making process.  
+**Objective:**   
+To use algorithmic interference to reconstruct the path of decision making. The goal is to make causal network that visualizes the effect of actions on state and the effect of state on reward. The network would act as a cause and effect chart for the model decision making process.  
   
 **Background:**  
 _The Environment:_ Many applications of RL are in robotics, especially in space and the military, so I chose to use Open AI Gym’s simulation of the 70s-era Lunar Lander game to make the causal network because it is a simple rendering of a typical robotics environment. The Lunar Lander's goal is to to land between the flags, and it receives a reward for landing and leg contact and a penalty for crashing or firing the engine. There are 4 distinct Actions: do nothing (0), fire left engine (1), fire main engine (2), fire right engine (3). There are 8 state variables that describe the environment: x/y position, x/y velocity, lander angle, angular velocity, L/R contact point.  
