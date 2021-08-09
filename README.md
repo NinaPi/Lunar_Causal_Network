@@ -31,16 +31,10 @@ By tracking the impact of each action, casual networking for RL models helps a u
 Nina would like to thank the Stony Brook Simons Summer Research Program and the VAI Lab for providing her with this wonderful opportunity to conduct research. She would like to give her most sincere thanks to Dr. Klaus Mueller and Dr. Eric Papenhausen for their instruction this summer.  
 
 **References**
-Importance of explainable AI
-"Explainable Reinforcement Learning Through a Causal Lens"
-Causal Interface 
-Lunar Landing Environment
-Lunar RL model 
-FCIT
-
-
-
-
-
-
-
+Madumal, P; Miller, T; Sonenberg, L; & Vetere, F. (2019) Explainable Reinforcement Learning Through a Causal Lens. Retrieved from https://arxiv.org/abs/1905.10958.
+Jun Wang and Klaus Mueller
+Wang, J & Mueller, K. (2016) The Visual Causality Analyst: An Interactive Interface for Causal Reasoning. Retrieved from https://www3.cs.stonybrook.edu/~mueller/papers/causalAnalyst.pdf.
+Lunar Landing Environment: https://gym.openai.com/envs/LunarLander-v2/
+Lunar RL model: https://github.com/shivaverma/OpenAIGym/blob/master/lunar-lander/discrete/lunar_lander.py
+FCIT: https://github.com/kjchalup/fcit
+Schneier, B. (2021, April 19). Hackers used to be Humans. Soon, AIs will Hack Humanity. Wired. https://www.wired.com/story/opinion-hackers-used-to-be-humans-soon-ais-will-hack-humanity/?bxid=5cec270f3f92a45b30f0ccfd&cndid=28931753&esrc=Wired_etl_load&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_brand=wired&utm_campaign=aud-dev&utm_mailing=WIR_Daily_041921&utm_medium=email&utm_source=nl&utm_term=list2_p3.
