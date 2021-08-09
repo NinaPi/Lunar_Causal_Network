@@ -5,7 +5,7 @@ Created for Stony Brook University's Simons Summer Research Program in 2021.
 
 **Objective:** To use algorithmic interference to reconstruct the path of decision making. The goal is to make causal network that visualizes the effect of actions on state and the effect of state on reward. The network would act as a cause and effect chart for the model decision making process.  
   
-**Background**  
+**Background:**  
 _The Environment:_ Many applications of RL are in robotics, especially in space and the military, so I chose to use Open AI Gym’s simulation of the 70s-era Lunar Lander game to make the causal network because it is a simple rendering of a typical robotics environment. The Lunar Lander's goal is to to land between the flags, and it receives a reward for landing and leg contact and a penalty for crashing or firing the engine. There are 4 distinct Actions: do nothing (0), fire left engine (1), fire main engine (2), fire right engine (3). There are 8 state variables that describe the environment: x/y position, x/y velocity, lander angle, angular velocity, L/R contact point.  
 
 _RL Model:_ Used the a DQN (Deep Q Network) to train an RL model on the environment. Problem considered 'solved' if the model acheives a reward of +200 for 100 consecutive episodes. Solved in 310 episodes.  
@@ -30,11 +30,11 @@ By tracking the impact of each action, casual networking for RL models helps a u
 **Acknowledgments:**    
 Nina would like to thank the Stony Brook Simons Summer Research Program and the VAI Lab for providing her with this wonderful opportunity to conduct research. She would like to give her most sincere thanks to Dr. Klaus Mueller and Dr. Eric Papenhausen for their instruction this summer.  
 
-**References**
+**References:**  
 Madumal, P; Miller, T; Sonenberg, L; & Vetere, F. (2019) Explainable Reinforcement Learning Through a Causal Lens. Retrieved from https://arxiv.org/abs/1905.10958.
-Jun Wang and Klaus Mueller
-Wang, J & Mueller, K. (2016) The Visual Causality Analyst: An Interactive Interface for Causal Reasoning. Retrieved from https://www3.cs.stonybrook.edu/~mueller/papers/causalAnalyst.pdf.
-Lunar Landing Environment: https://gym.openai.com/envs/LunarLander-v2/
-Lunar RL model: https://github.com/shivaverma/OpenAIGym/blob/master/lunar-lander/discrete/lunar_lander.py
-FCIT: https://github.com/kjchalup/fcit
-Schneier, B. (2021, April 19). Hackers used to be Humans. Soon, AIs will Hack Humanity. Wired. https://www.wired.com/story/opinion-hackers-used-to-be-humans-soon-ais-will-hack-humanity/?bxid=5cec270f3f92a45b30f0ccfd&cndid=28931753&esrc=Wired_etl_load&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_brand=wired&utm_campaign=aud-dev&utm_mailing=WIR_Daily_041921&utm_medium=email&utm_source=nl&utm_term=list2_p3.
+Jun Wang and Klaus Mueller.   
+Wang, J & Mueller, K. (2016) The Visual Causality Analyst: An Interactive Interface for Causal Reasoning. Retrieved from https://www3.cs.stonybrook.edu/~mueller/papers/causalAnalyst.pdf.   
+Lunar Landing Environment: https://gym.openai.com/envs/LunarLander-v2/  
+Lunar RL model: https://github.com/shivaverma/OpenAIGym/blob/master/lunar-lander/discrete/lunar_lander.py  
+FCIT: https://github.com/kjchalup/fcit  
+Schneier, B. (2021, April 19). Hackers used to be Humans. Soon, AIs will Hack Humanity. Wired. https://www.wired.com/story/opinion-hackers-used-to-be-humans-soon-ais-will-hack-humanity/?bxid=5cec270f3f92a45b30f0ccfd&cndid=28931753&esrc=Wired_etl_load&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_brand=wired&utm_campaign=aud-dev&utm_mailing=WIR_Daily_041921&utm_medium=email&utm_source=nl&utm_term=list2_p3   
