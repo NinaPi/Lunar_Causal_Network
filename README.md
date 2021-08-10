@@ -33,8 +33,7 @@ By tracking the impact of each action, casual networking for RL models helps a u
 Nina would like to thank the Stony Brook Simons Summer Research Program and the VAI Lab for providing her with this wonderful opportunity to conduct research. She would like to give her most sincere thanks to Dr. Klaus Mueller and Dr. Eric Papenhausen for their instruction this summer.  
 
 **References:**  
-Madumal, P; Miller, T; Sonenberg, L; & Vetere, F. (2019) Explainable Reinforcement Learning Through a Causal Lens. Retrieved from https://arxiv.org/abs/1905.10958.
-Jun Wang and Klaus Mueller.   
+Madumal, P; Miller, T; Sonenberg, L; & Vetere, F. (2019) Explainable Reinforcement Learning Through a Causal Lens. Retrieved from https://arxiv.org/abs/1905.10958.   
 Wang, J & Mueller, K. (2016) The Visual Causality Analyst: An Interactive Interface for Causal Reasoning. Retrieved from https://www3.cs.stonybrook.edu/~mueller/papers/causalAnalyst.pdf.   
 Lunar Landing Environment: https://gym.openai.com/envs/LunarLander-v2/  
 Lunar RL model: https://github.com/shivaverma/OpenAIGym/blob/master/lunar-lander/discrete/lunar_lander.py  
