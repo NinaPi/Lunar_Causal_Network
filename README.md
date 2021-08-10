@@ -1,5 +1,5 @@
 # Lunar_Causal_Network
-Created for Stony Brook University's Simons Summer Research Program in 2021.  
+Created in Stony Brook University's Visual Analytics and Imaging Lab through the Simons Summer Research Program in 2021. Under the guidance of Dr. Klaus Mueller and Dr. Eric Papenhausen.   
 
 **Problem:**   
 Reinforcement Learning models are ubiquitous, but many are black box models, meaning they are created directly from data by an algorithm without insight into their structure. With these models, humans, even those who design them, cannot understand how variables are being combined to make predictions. What if we want to know why a model took an action? Why a RL-powered military weapon decides to make a launch? Investors are less likely to invest in and users are less likely to deploy a model they can’t understand, trust, or control.  
